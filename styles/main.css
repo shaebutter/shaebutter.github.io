@@ -1,28 +1,77 @@
+a {
+    text-decoration: none;
+    color: #37392E
+}
+body {
+    text-align: center;
+}
+#bio section {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#CelineLink {
+    color: blue;
+}
+footer {
+    color: #37392E; 
+    background-color: #DFD1D8;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 2em;
+    margin-top: 2em;
+}
+#heropic {
+    width: 343px
+}
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+}
+main {
+    font-family: 'Poppins', sans-serif;
+}
 li a {
     text-decoration: none;
     display: block;
     color: #37392E; 
-    font-weight: 900;
+    font-weight: 10000;
+    font-family: 'Amatic SC', cursive;
+    font-size: 10pt;
 }
 nav{
     background-color: #DFD1D8;
+    padding: 0.25em;
 }
 nav img {
-    height: 75px;
+    height: 55px;
 }
 ul {
     list-style-type: none;
     text-align: center;
+    padding: 0em;
 }
 
 @media only screen and (min-width: 32.5em) {
+#heropic {
+    width: 740px;
+}
+menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+}
 nav {
     display: flex;
     justify-content: space-evenly;
 } 
+nav img {
+    height: 65px;
+    margin-left: -45px;
+}
 li a {
     justify-content: space-evenly;
     padding: 2em;
+    font-size: 12pt;
 }
 ul {
     display: flex;
@@ -30,6 +79,19 @@ ul {
     justify-content: space-evenly;
    
 }
-
-
+}
+@media only screen and (min-width: 62.5em) {
+    main #bio section {
+        width: 600px
+    }
+    #heropic {
+        width: 1330px;
+    }
+    li a {
+        font-size: 18pt;
+    }
+    nav img {
+        height: 150px;
+        margin-left: -150px;
+    }
 }
