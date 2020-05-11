@@ -21,8 +21,16 @@ footer {
     padding: 2em;
     margin-top: 2em;
 }
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#gallery img {
+    width: 300px;
+    margin-top: 2em;
+}
 #heropic {
-    width: 343px
+    width: 343px;
 }
 h1, h2 {
     font-family: 'Amatic SC', cursive;
@@ -38,7 +46,6 @@ li a {
     font-family: 'Amatic SC', cursive;
     font-size: 10pt;
 }
-
 nav{
     background-color: #DFD1D8;
     padding: 0.25em;
@@ -66,6 +73,9 @@ ul {
 }
 
 @media only screen and (min-width: 32.5em) {
+    #gallery img {
+        width: 500px;
+    }
 #heropic {
     width: 740px;
 }
@@ -103,6 +113,9 @@ ul {
 @media only screen and (min-width: 62.5em) {
     main #bio section {
         width: 600px
+    }
+    #gallery img {
+        width: 800px;
     }
     #heropic {
         width: 1330px;
