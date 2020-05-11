@@ -90,6 +90,9 @@ li a {
 #orders-table {
     font-size: 12pt;
 }
+#subscriptionH {
+    font-size: 28pt;
+}
 ul {
     display: flex;
     flex-direction: row;
